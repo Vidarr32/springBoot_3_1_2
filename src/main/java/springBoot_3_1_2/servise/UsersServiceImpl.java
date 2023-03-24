@@ -12,8 +12,7 @@ import java.util.List;
 @Transactional(readOnly = true)
 public class UsersServiceImpl implements UsersService {
 
-    private UsersRepository usersRepository;
-
+    private final UsersRepository usersRepository;
 
     @Autowired
     public UsersServiceImpl(UsersRepository usersRepository) {
