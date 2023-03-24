@@ -6,7 +6,7 @@ import springBoot_3_1_2.model.User;
 
 import java.util.List;
 
-public interface UserService {
+public interface UsersService {
     List<User> getUsers();
 
     User getUserById(long id);
